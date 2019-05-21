@@ -8,8 +8,8 @@ const ContentTable = () => (
         <Table.Row>
           <Table.HeaderCell colSpan="2" textAlign="right">
             <Input placeholder="Search Document" floated="right" icon="search">
-              <input style={{ borderRadius: "20px"}} />
-              <i className="search icon"/>
+              <input style={{ borderRadius: "20px" }} />
+              <i className="search icon" />
             </Input>
           </Table.HeaderCell>
         </Table.Row>
@@ -27,11 +27,11 @@ const ContentTable = () => (
         </Table.Row>
         <Table.Row>
           <Table.Cell>Panduan Belajar CSS</Table.Cell>
-          <Table.Cell textAlign="center">PDF</Table.Cell>
+          <Table.Cell textAlign="center" >PDF</Table.Cell>
         </Table.Row>
         <Table.Row>
-          <Table.Cell>Panduan Belajar Javascript</Table.Cell>
-          <Table.Cell textAlign="center">PDF</Table.Cell>
+          <Table.Cell>Panduan Belajar React js</Table.Cell>
+          <Table.Cell textAlign="center" >PDF</Table.Cell>
         </Table.Row>
       </Table.Body>
       <Table.Footer>
